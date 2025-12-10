@@ -19,7 +19,7 @@ METRICS = [
 
 RAW_SHEET_NAME = "Page 1"
 RAW_CREATED_COL = "Created"
-RAW_RESOLVED_COL = "Resolved"
+RAW_RESOLVED_COL = "Resolve time"
 RAW_OE_COL = "Affected OEs"
 
 RAW_TO_OE_MAP = [
@@ -177,3 +177,4 @@ def main():
         )
     else:
         st.info("👆 Please upload both files to continue.")
+
