@@ -20,7 +20,7 @@ def main():
 
     if source_files and target_file:
         sheet_source = "Page 1"
-        sheet_target = "IT Stability"
+        sheet_target = "KPI2"
         cols_to_extract = [0, 1, 2, 5, 14, 7, 8, 9, 11]  # A,B,C,F,O,H,I,J,K
 
         try:
@@ -88,3 +88,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
